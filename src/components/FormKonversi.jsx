@@ -29,7 +29,7 @@ const FormKonversi = ({ onAddMarker }) => {
 
 	return (
 		<div className="absolute top-0 mx-8 my-24  bg-white p-6 rounded-lg shadow-lg border border-gray-500">
-			<h2 className="text-lg font-semibold mb-4 text-amber-700">Tambah titik Poin ke Map</h2>
+			<h2 className="text-lg font-semibold mb-4 text-amber-700"></h2>
 			<div className="flex space-x-4 mb-4">
 				<button
 					onClick={() => setConversionType("DMS to DD")}

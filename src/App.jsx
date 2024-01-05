@@ -14,13 +14,14 @@ const App = () => {
 
 	return (
 		<>
+		
 			<MyMap onAddMarker={tambahMarker} selectedMarker={selectedMarker} />
 			{displayAddPointForm && <Form onAddMarker={tambahMarker} />}
 			<button
 				onClick={() => setDisplayAddPointForm(!displayAddPointForm)}
 				className=" absolute bottom-0 left-0 m-4 p-2 text-white rounded bg-amber-700"
 			>
-				{displayAddPointForm ? "X" : "Tambah Marker"}
+				{displayAddPointForm ? "X" : "Add Point"}
 			</button>
 		</>
 	);
